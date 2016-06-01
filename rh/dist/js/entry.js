@@ -1,3 +1,4 @@
+import Hello from './hello.jsx';
 var con = require("./content.js")
 
 var horizon = Horizon()
