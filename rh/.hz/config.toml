@@ -25,7 +25,7 @@
 #                application state
 # 'serve_static' will serve files from the given directory over HTTP/HTTPS
 #------------------------------------------------------------------------------
-project_name = "react-horizon"
+project_name = "rh"
 # serve_static = "dist"
 
 
@@ -68,7 +68,7 @@ project_name = "react-horizon"
 # 'allow_unauthenticated' allows connections that are not tied to a user id
 # 'auth_redirect' specifies where users will be redirected to after login
 #------------------------------------------------------------------------------
-token_secret = "iKSzyKpd31zD87w49glJ150bjD4tAVjl70l9pJ0p0L0GFc97CsW/q1dqP6Kxg2wyJK85MtIVNrvQMuVu/Q3Qqw=="
+token_secret = "4pccO3WtoDc9tWspNETHhv8p64l0FWKlOMQ44JoRIZZbTqSZhSG0KRQiQUlJP16XB3JzK+BNKDFD5tddUP8LmQ=="
 # allow_anonymous = true
 # allow_unauthenticated = true
 # auth_redirect = "/"
