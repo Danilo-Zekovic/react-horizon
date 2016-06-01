@@ -4,7 +4,12 @@
   "description": "Trying to conect horizon and React",
   "main": "bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "hz serve --dev",
+    "watch": "webpack --progress --colors --watch",
+    "serve": "",
+    "build": "webpack --progress --colors",
+    "lint": ""
   },
   "repository": {
     "type": "git",
