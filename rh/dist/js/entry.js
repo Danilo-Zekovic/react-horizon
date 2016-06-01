@@ -1,7 +1,7 @@
-let content = require("./content.js")
+var con = require("./content.js")
 
-var horizon = Horizon();
+var horizon = Horizon()
 horizon.onReady(function() {
-  document.querySelector('h1').innerHTML = content
+  document.querySelector('h1').innerHTML = con
 });
-horizon.connect();
+horizon.connect()
