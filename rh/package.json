@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "hz serve --dev",
     "watch": "webpack --progress --colors --watch",
-    "serve": "",
+    "serve": "webpack-dev-server --progress --colors",
     "build": "webpack --progress --colors",
     "lint": ""
   },
