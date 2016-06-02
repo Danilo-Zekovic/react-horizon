@@ -1,8 +1,13 @@
 import Hello from './hello.jsx';
-var con = require("./content.js")
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './Header.jsx'
 
 var horizon = Horizon()
 horizon.onReady(function() {
-  document.querySelector('h1').innerHTML = con
+  ReactDOM.render(
+    <Hello/>
+    , document.getElementById('hello')
+  );
 });
 horizon.connect()
