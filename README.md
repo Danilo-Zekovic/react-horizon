@@ -18,4 +18,15 @@ webpack
 hz serve --dev
 ```
 
-Then go to localhost:8181
+Then go to localhost:8181    
+
+Also now this comands work too:     
+
+To build the bundle.js:     
+```npm run build```     
+To rebuild automatically every time some change is saved:    
+```npm run watch```    
+To run the server:    
+```npm start```      
+
+Still working on the server-dev:    
