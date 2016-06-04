@@ -30,3 +30,9 @@ To run the server:
 ```npm start```      
 
 Still working on the server-dev:    
+
+###WARNING    
+
+If you run into the 400 error (Bad request), it is possibly caused by horizon.io
+ or something other related to server. All you have to do is to fix it is delete
+ cookies for the localhost or your server ip/url. 

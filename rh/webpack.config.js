@@ -4,6 +4,7 @@ module.exports = {
         path: "dist",
         filename: "bundle.js"
     },
+
     module: {
         loaders: [
             {
@@ -13,6 +14,10 @@ module.exports = {
               query: {
                 presets: ['es2015', 'react']
               }
+            },
+            {
+              test: /\.scss$/,
+              loader: "style!css!sass"
             }
         ]
     }
