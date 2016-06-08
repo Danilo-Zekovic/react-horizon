@@ -10,3 +10,7 @@
 #main {
   background-color: white;
 }
+
+.active {
+  color: green;
+}
